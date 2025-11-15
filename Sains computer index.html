@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>守护陆地生命 — SDG15</title>
+  <style>
+    body{font-family: Arial, sans-serif; line-height:1.6; margin:0; padding:0; color:#123;}
+    header{background:#0b6; color:#fff; padding:20px;}
+    nav a{margin-right:12px; color:#fff; text-decoration:none;}
+    .container{padding:20px; max-width:900px; margin:0 auto;}
+    .hero{background:#eef; padding:20px; border-radius:8px;}
+    .card{background:#fff; padding:15px; margin:12px 0; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+    footer{background:#222; color:#fff; padding:12px; text-align:center; margin-top:20px;}
+    button{background:#078; color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>守护陆地生命 — SDG15</h1>
+    <nav>
+      <a href="#about">关于</a>
+      <a href="#problems">问题</a>
+      <a href="#actions">我们能做的</a>
+      <a href="#join">参与</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home" class="hero card">
+      <h2>保护森林，守护未来</h2>
+      <p>森林为人类与动物提供生存基础。我们要从现在开始行动，恢复生态，保护物种。</p>
+      <button onclick="document.getElementById('join').scrollIntoView()">马上参与</button>
+    </section>
+
+    <section id="about" class="card">
+      <h3>什么是 SDG 15？</h3>
+      <p>SDG15（陆地生物）旨在保护、恢复并促进可持续利用陆地生态系统，管理森林，停止生物多样性丧失。</p>
+    </section>
+
+    <section id="problems" class="card">
+      <h3>问题与现状</h3>
+      <ul>
+        <li>滥伐与森林砍伐</li>
+        <li>栖息地破碎化</li>
+        <li>野生动物非法捕猎</li>
+      </ul>
+    </section>
+
+    <section id="actions" class="card">
+      <h3>我们能做的</h3>
+      <ol>
+        <li>参与植树与再造林</li>
+        <li>节约用纸，减少浪费</li>
+        <li>支持本地与可持续产品</li>
+      </ol>
+    </section>
+
+    <section id="join" class="card">
+      <h3>参与表单（示例）</h3>
+      <p>姓名：<input type="text" placeholder="你的名字"></p>
+      <p>Email：<input type="email" placeholder="你的邮箱"></p>
+      <p><button>报名植树</button></p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 守护陆地生命 — 学校项目
+  </footer>
+</body>
+</html>
